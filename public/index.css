@@ -1,0 +1,25 @@
+body {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#resultContainer {
+        width: 100%;
+        padding: 5px;
+}
+
+#resultContainer.progress {
+    border: 2px solid orange;
+    color: orange;
+}
+
+#resultContainer.success {
+    border: 2px solid green;
+    color: green;
+}
+
+#resultContainer.error {
+    border: 2px solid red;
+    color: red;
+}

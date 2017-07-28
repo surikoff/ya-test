@@ -1,0 +1,16 @@
+{
+    "name": "ya-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "NODE_PATH=. nodemon --harmony server/index.js"
+    },
+    "dependencies": {
+        "koa": "^2.3.0",
+        "koa-router": "^7.2.1",
+        "koa-static": "^4.0.1"
+    },
+    "author": "surikoff",
+    "license": "ISC"
+}

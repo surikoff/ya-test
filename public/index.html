@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ya'test page</title>
+    <link rel="stylesheet" href="kube.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <form class="form" id="myForm" action="http://localhost:3000/">
+        <div class="form-item">
+            <label>Ф.И.О.</label>
+            <input name="fio" id="fio">
+        </div>
+        <div class="form-item">
+            <label>Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-item">
+            <label>Телефон:</label>
+            <input type="phone" name="phone" id="phone">
+        </div>
+        <div class="form-item">
+            <button id="submitButton" class="button">Отправить</button>
+        </div>
+        <div id="resultContainer">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
